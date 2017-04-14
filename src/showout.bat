@@ -1,0 +1,1 @@
+for /L %%i in (1,1,%1) do ( outtopgm\Release\outtopgm.exe sunglasses.net out%%i.pgm %%i %2 )

@@ -1,0 +1,1 @@
+for /L %%i in (0,1,%1) do ( hidtopgm.exe sunglasses.net hide%%i.pgm 128 120 %%i )
